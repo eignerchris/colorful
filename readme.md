@@ -4,8 +4,6 @@ colorful is a go library for formatting colored output.
 
 ## Usage
 
-`go get github.com/eignerchris/colorful`
+1. Add import to your project: `import "github.com/eignerchris/colorful"`
 
-`import github.com/eignerchris/colorful`
-
-`colorful.Build("Hello, World!", "cyan")`
+2. Build colorful strings: `fmt.Println(colorful.Build("Hello, World!", "red"))`
